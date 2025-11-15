@@ -21,8 +21,8 @@ y_pred= model.predict(x_test)
 accuracy= accuracy_score(y_test, y_pred)
 print(f'Model Accuracy: {accuracy * 100:.2f}%')
 new_data= pd.DataFrame({
-    'texts_per_day': [4],
-    'emoji_usage': [2],
+    'texts_per_day': [3],
+    'emoji_usage': [0],
     'left_on_read': [0],
     'asked_you_out': [0],
     'plans_a_date': [1],
